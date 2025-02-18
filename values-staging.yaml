@@ -11,5 +11,4 @@ requests:
 service:
   port: 8111
 cm:
-  key: version
-  value: 1.18.0
+  data: "version: 1.18.0"

@@ -11,5 +11,4 @@ requests:
 service:
   port: 80
 cm:
-  key: nginx
-  value: 1.17.0
+  data: "version: 1.17.0"
