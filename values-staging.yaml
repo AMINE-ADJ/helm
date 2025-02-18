@@ -1,0 +1,15 @@
+namespace:
+  name: staging
+replica:
+  count: 1
+image:
+  name: nginx
+  tag: 1.18.0
+requests:
+  cpu: 50m
+  memory: 128Mi
+service:
+  port: 8111
+cm:
+  key: version
+  value: 1.18.0

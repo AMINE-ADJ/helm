@@ -1,0 +1,15 @@
+namespace:
+  name: prod
+replica:
+  count: 2
+image:
+  name: nginx
+  tag: 1.17.0
+requests:
+  cpu: 70m
+  memory: 256Mi
+service:
+  port: 80
+cm:
+  key: nginx
+  value: 1.17.0
