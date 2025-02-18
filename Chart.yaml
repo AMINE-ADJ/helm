@@ -1,8 +1,8 @@
 apiVersion: v1
 name: nginx-deployment
-keywords: 
--nginx
+description: this is a helm chart for deploying nginx apps
+keywords: -nginx
 version: 1.0.0
 maintainers:
--name: aadjou
-email: ka_adjou@esi.dz
+    -name: aadjou
+    email: ka_adjou@esi.dz
