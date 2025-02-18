@@ -6,4 +6,5 @@ metadata:
   name: nginx-version
   namespace: {{ .Values.namespace.name }}
 data:
- {{ .Values.cm.key }}: {{ .Values.cm.value }}
+#  {{ .Values.cm.key }}: {{ .Values.cm.value }}
+  {{ .Values.cm.data }}

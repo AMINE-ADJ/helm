@@ -28,6 +28,7 @@ spec:
         imagePullPolicy: {{ .Values.pullPolicy }}
         name: nginx-alpine
         resources:
+        # {{toYaml .Values.resources | indent 12 }}
           requests:
             cpu: {{ .Values.requests.cpu }}
             memory: {{ .Values.requests.memory }}

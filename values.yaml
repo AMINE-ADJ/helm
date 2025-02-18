@@ -12,6 +12,6 @@ requests:
 service:
   type: ClusterIP
   port: 8111
+  targetPort: 8111
 cm:
-  key: nginx
-  value: alpine
+  data: "version: alpine"
